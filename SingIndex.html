@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">                        <!--yahan id aurr name ka actual use kyaa h ?-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaymentX</title>
+</head>
+<body>
+    <h1><b>PAYMENT FORM</b></h1>
+    <hr>
+    <hr>
+    <br>
+    <br>
+
+    <form action="">                   <!--yahan bina form action wala term ke bhi ye chal raha h-->     
+        <ul>
+
+          <li><h2><i>USER INFORMATION :- </i></h2></li>
+        
+           
+            <fieldset>
+                <ul>
+                <br>
+                <li>
+                NAME: * <input type="text" name="name" id="name" required>
+            </li>
+                <br>
+
+              <p>
+                <li>
+                GENDER: * 
+                MALE <input type="radio" name="gender" id="male" required>
+                FEMALE <input type="radio" name="gender" id="female" required>
+            </li>
+              </p>
+              <br>
+
+              
+              <li>
+                AGE:
+              <input type="number" name="age" id="age">
+            </li>
+              <br>
+              <br>
+
+              <li>
+              EMAIL: *
+              <input type="email" name="email" id="email" required></input>
+            </li>
+              <br>
+              <br>
+
+              <li>
+              ADDRESS: *
+              <textarea name="address" id="address" cols="40" rows="5" required></textarea></li>      <!--yahan bina id wala term ke bhi ye chal raha h-->
+              <br>
+              <br>                                                 <!--bina paragraph tag use kiye ye chal raha h-->
+ 
+              <li>
+                PINCODE: *
+              <input type="pincode" name="pincode" id="pincode"required>
+              </li>
+              <br>
+            </ul>
+            </fieldset>
+            <br>
+
+          <li><h2><i>PAYMENT INFORMATION :-</i></h2></li>
+          <fieldset>
+            <br> 
+            <ul>
+                <li>
+                   CARD TYPE: *
+                     <select name="Card type" id="Card type" required>
+                       <option value="">-select option-</option>
+                       <option value="Visa">Visa</option>
+                       <option value="Rupay">Rupay</option>
+                       <option value="Mastercard">Mastercard</option>
+                     </select>
+                </li>
+                <br>
+                
+
+                <li>
+                    CARD NUMBER: *
+                    <input type="cn" name="cn" id="cn" required>
+                </li>
+                <br>
+                <br>
+
+
+                <li>
+                    EXPIRATION DATE: *
+                    <input type="date" name="date" id="date" required>
+                </li>
+                <br>
+
+
+                <li>
+                    CVV: *
+                    <input type="password" name="password" id="password" required>
+                </li>
+                <br>
+
+
+                <li>
+                    PAY NOW:
+                    <input type="submit" name="submit" id="submit">
+                </li>
+
+                  
+            </ul>
+            
+          </fieldset>
+        <br>  
+</body>
+</html>
